@@ -7,9 +7,12 @@
 </head>
 <body>
     <label class="reg" for="class">학과</label>
-    <select id="class">
-        <option>건축공학과</option>
-        <option>우주과학과</option>
+    <select id="class" size="5" multiple>
+        <option value="archi">건축공학과</option>
+        <option value="space" selected>우주과학과</option>
+        <option value="fre">프랑스어학과</option>
+        <option value="math">응용수학과</option>
+
     </select>
 </body>
 </html>
