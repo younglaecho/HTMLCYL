@@ -8,11 +8,17 @@
 <body>
     <label class="reg" for="class">학과</label>
     <select id="class" size="5" multiple>
-        <option value="archi">건축공학과</option>
-        <option value="space" selected>우주과학과</option>
-        <option value="fre">프랑스어학과</option>
-        <option value="math">응용수학과</option>
-
+        <optgroup label="국제캠">
+            <option value="archi">건축공학과</option>
+            <option value="space" selected>우주과학과</option>
+            <option value="fre">프랑스어학과</option>
+            <option value="math">응용수학과</option>
+        </optgroup>
+        <optgroup label="서울캠">
+            <option value="mat">수학과</option>
+            <option value="geo">지질학과</option>
+            <option value="phy">물리학과</option>
+        </optgroup>
     </select>
 </body>
 </html>
